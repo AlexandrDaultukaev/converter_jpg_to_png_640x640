@@ -1,6 +1,7 @@
 # This is a sample Python script.
 from PIL import Image
 from typing import Tuple, List
+import time
 import os
 
 
@@ -57,4 +58,6 @@ def formatting() -> None:
     os.rmdir("tmp")
 
 
+#s_time = time.time()
 formatting()
+#print(f"{time.time() - s_time}")
